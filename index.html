@@ -294,21 +294,32 @@
 		<div style="background-color: #fff;">
 			<p>&nbsp;</p>
 		</div>
-        <div class="toolbar">
+		<div class="toolbar big">
 			<ul id="Navigation">
-				<li><a href="/about.html">About Me</a></li>
-				<li><a href="/publications.html">Publications</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#publications">Publications</a></li>
 			</ul>
-			<div class="title">Rachel Rapp</div>
+			<div class="title"><a href="">Rachel Rapp</a></div>
 			<ul id="Navigation">
 				<li><a href="/cv.pdf">CV</a></li>
 				<li><a href="/blog">Blog</a></li>
 				<li><a href="mailto:rachel.rapp@uni-tuebingen.de">Contact</a></li>
 			</ul>
-        </div>
+		</div>
+		<div class="toolbar small">
+			<div class="title"><a href="">Rachel Rapp</a></div>
+			<ul id="Navigation">
+				<li><a href="#about" title="About Me"><i class="fa fa-address-card"></i></a></li>
+				<li><a href="#publications" title="Publications"><i class="fa fa-th-list"></i></a></li>
+				<li><a href="/cv.pdf" title="CV"><i class="fa fa-graduation-cap"></i></a></li>
+				<li><a href="/blog" title="Blog" target="_blank" ><i class="fa fa-book"></i></a></li>
+				<li><a href="mailto:rachel.rapp@uni-tuebingen.de" title="Contact"><i class="fa fa-envelope"></i></a></li>
+			</ul>
+		</div>
 		<div style="background-color: #fff;">
 			<p>&nbsp;</p>
 		</div>
+	</div>
         
 <div class="Content-outer">
 <main class="Index" data-collection-id="59a3557d579fb3a6d7ee5912" data-controller="IndexFirstSectionHeight, Parallax, IndexNavigation">
@@ -328,7 +339,7 @@
 					<div class="col sqs-col-8 span-8">
 						<div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_8_1503876642497_5168">
 							<div class="sqs-block-content">
-								<h1 style="white-space:pre-wrap;">About Me</h1>
+								<h1 style="white-space:pre-wrap;" id=about>About Me</h1>
 								<p style="white-space:pre-wrap;">Hi, I'm Rachel. I studied AI and cognitive neuroscience in Spain and the US before joining Prof. Dr. Jakob Macke's lab <a href="https://www.mackelab.org/">"Machine Learning in Science"</a> as a PhD student in September 2021. I am working on the DeepHumanVision project, using deep neural networks to study how populations of neurons encode visual information in the human brain. I am co-advised by Prof. Dr. Dr. Florian Mormann.</p>
 								<p style="white-space:pre-wrap;"><a href="/cv.pdf">Read my CV to learn more about me.</a></p>
 							</div>
@@ -393,7 +404,7 @@
 					<div class="col sqs-col-8 span-8">
 						<div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_8_1503876642497_5168">
 							<div class="sqs-block-content">
-								<h1 style="white-space:pre-wrap;">Publications</h1>
+								<h1 style="white-space:pre-wrap;" id=publications>Publications</h1>
 							</div>
 						</div>
 					</div>	
@@ -805,7 +816,7 @@
 						<div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_20_1503945996930_3927">
 							<div class="sqs-block-content">
 								<div class="sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="large">
-									<a href="/blog" target="_blank" class="sqs-block-button-element--large sqs-block-button-element" >Visit my blog</a>
+									<a href="/blog" class="sqs-block-button-element--large sqs-block-button-element" >Visit my blog</a>
 								</div>
 							</div>
 						</div>
@@ -958,8 +969,8 @@
 
 			<nav class="Footer-nav" data-content-field="navigation">
 				<div class="Footer-nav-group">
-					<a href="/about.html" class="Footer-nav-item">About Me</a>
-					<a href="/publications.html" class="Footer-nav-item">Publications</a>
+					<a href="#about" class="Footer-nav-item">About Me</a>
+					<a href="#publications" class="Footer-nav-item">Publications</a>
 					<a href="/cv.pdf" class="Footer-nav-item">CV</a>
 					<a href="/blog" class="Footer-nav-item">Blog</a>
 					<a href="mailto:rachel.rapp@uni-tuebingen.de" class="Footer-nav-item">Contact</a>
